@@ -17,3 +17,6 @@ bindkey "${terminfo[kcud1]}" history-substring-search-down
 # bind UP and DOWN arrow keys (compatibility fallback)
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+bindkey '^P' history-substring-search-up
+bindkey '^N' history-substring-search-down
